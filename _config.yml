@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Develbyte"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Narendra Dubey"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://develbyte.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+repository               : "DEVELByte/develbyte.github.io"
+teaser                   : "/assets/images/banner.jpg"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Narendra Dubey"
+  avatar           : "/assets/images/bio-photo.png"
+  bio              : "I am a <strong>#Technology Enthusiast #Coder #Driven Individual #Adventure Biker #Blogger #Philosopher #Coder #Cook #Dog Lover</strong> with keen interest in Technologies, Data Science, Artificial Intelligence, Algorithms, I love talking to computer, <strong>#Python</strong> is favorite language. I can also speak <strong>#JavaScript</strong> I enjoys working with Data very much and wants to help developers, analyst and startups by sharing what i know. You can find me sharing useful Data processing and analytics related content on Twitter, Linkedin and Git. Follow me if you like what i do!"
+  location         : "Bangalore"
+  email            : "iamnarendradubey@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,16 +89,16 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "DEVELByte"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "narendrakumar05"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "2944691/imbatman"
   steam            :
   tumblr           :
   twitter          :
@@ -242,6 +242,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true

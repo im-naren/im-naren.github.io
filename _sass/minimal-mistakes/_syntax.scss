@@ -8,12 +8,12 @@ figure.highlight {
   margin-bottom: 1em;
   font-family: $monospace;
   font-size: $type-size-7;
-  line-height: 1.8;
+  line-height: 1.5;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background-color: $code-background-color;
   box-shadow: $box-shadow;
-
+    
   &:before {
     position: absolute;
     top: 0;

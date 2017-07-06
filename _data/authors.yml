@@ -1,0 +1,14 @@
+Narendra Dubey:
+  name: "Narendra Dubey"
+  uri: "http://develbyte.github.io"
+  email: "iamnarendradubey@gmail.com"
+  bio: "bio is comming..."
+  avatar: "/assets/images/bio-photo.jpg"
+  twitter: "NareN_Dubey"
+
+Author 2:
+  name: "Author 2"
+  email: "iambatman@develbyte.in"
+  bio: "ImBatman"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  twitter: "example"
