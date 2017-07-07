@@ -1,13 +1,13 @@
 ---
 layout: single
 title:  "What is Machine Learning?"
-date:   2015-12-14 16:10:44 +0530
+date:   2016-12-14 16:10:44 +0530
 categories: machine-learning
-author: Natendra Dubey
+tags:
+    - machine-learning
 header:
-  teaser: /assets/images/welcome-quote.jpg
+    teaser: /assets/images/banner.jpg
 ---
-
 **Machine learning** is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning is a part of computer science which focuses on the development of computer programs that can teach themselves to grow and change based on the data it is exposed to.
 
 Machine learning algorithms are used in Data Mining to make predictions on data machine learning uses that data to improve the program’s own understanding. Machine learning programs detect patterns in data and adjust program actions accordingly.  For example, Facebook’s News Feed changes according to the user’s personal interactions with other users. If a user frequently tags a friend in photos, writes on his wall or “likes” his links, the News Feed will show more of that friend’s activity in the user’s News Feed due to presumed closeness

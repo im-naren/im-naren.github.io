@@ -3,11 +3,15 @@ layout: single
 title:  "Difference between Unix and Linux"
 date:   2015-03-07 16:10:44 +0530
 categories: Hadoop
-author: Natendra Dubey
+tags: 
+    - prerequisite
+    - hadoop
+    - unix
+    - linux
+    - machine-learning
 header:
-  teaser: /assets/images/welcome-quote.jpg
+    teaser: /assets/images/banner.jpg
 ---
-
 Back in 1969, UNIX has evolved through a number of different versions and environment. One of the Original UNIX editors has licensed the most modern UNIX variants. It’s closed Source software. There are various flavors of UNIX are available in market like Sun’s Solaris, Hewlett-Packard’s HP-UX, and IBM’s AIX all of these have their own Unique Foundation, all these flavors are optimized and incorporated with different tools which are most compatible with their hardware.
 
 Linux is an open source (free to use and redistribute under GNU licenses) operating system widely used for computer hardware and software, game development, tablet PCS, mainframes etc. UNIX is a copyrighted name only big companies (IBM, HP etc…) are allowed to use the UNIX copyright and names. UNIX is commonly used in internet servers, workstations and PCs by Solaris, Intel, and HP etc.

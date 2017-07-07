@@ -2,12 +2,14 @@
 layout: single
 title:  "How to Implement Singly Linked List in Java"
 date:   2015-05-15 16:10:44 +0530
-categories: Hadoop
-author: Natendra Dubey
+categories: Coding
+tags: 
+    - java
+    - coding
+    - data-structure
 header:
-  teaser: /assets/images/welcome-quote.jpg
+    teaser: /assets/images/banner.jpg
 ---
-
 A **Linked List** is a dynamic data structure. The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with an unknown number of objects will need to use a linked list.
 
 Linked lists and arrays are similar since they both store collections of data. The terminology is that arrays and linked lists store “elements” on behalf of “client” code. The specific type of element is not important since essentially the same structure works to store elements of any type. The size of the array is fixed where Linked List is a dynamic and also Inserting new elements at the front or in middle of an array is potentially expensive because existing elements need to be shifted over to make room.

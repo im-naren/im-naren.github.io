@@ -14,7 +14,7 @@ description              : "An amazing website."
 url                      : "https://develbyte.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DEVELByte/develbyte.github.io"
-teaser                   : "/assets/images/banner.jpg"
+teaser                   : /assets/site-images/banner.jpg
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -60,7 +60,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/site-images/banner.jpg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Narendra Dubey"
-  avatar           : "/assets/images/bio-photo.png"
+  avatar           : "/assets/site-images/bio-photo.png"
   bio              : "I am a <strong>#Technology Enthusiast #Coder #Driven Individual #Adventure Biker #Blogger #Philosopher #Coder #Cook #Dog Lover</strong> with keen interest in Technologies, Data Science, Artificial Intelligence, Algorithms, I love talking to computer, <strong>#Python</strong> is favorite language. I can also speak <strong>#JavaScript</strong> I enjoys working with Data very much and wants to help developers, analyst and startups by sharing what i know. You can find me sharing useful Data processing and analytics related content on Twitter, Linkedin and Git. Follow me if you like what i do!"
   location         : "Bangalore"
   email            : "iamnarendradubey@gmail.com"
@@ -241,7 +241,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true

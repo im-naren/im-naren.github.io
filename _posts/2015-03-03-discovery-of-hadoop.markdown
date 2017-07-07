@@ -3,11 +3,10 @@ layout: single
 title:  "Discovery of Hadoop"
 date:   2015-03-03 16:10:44 +0530
 categories: Hadoop
-author: Natendra Dubey
+tags: hadoop
 header:
-  teaser: /assets/images/welcome-quote.jpg
+    teaser: /assets/images/banner.jpg
 ---
-
 Back in the early 2000's Dough Cutting was attempting to build an Open Source Search engine called Nutch. They were facing trouble managing their distributed system even when they were running on very few computers. Nutch was stuck with its two half time developers.At the same time Google was facing band problem because they were ingesting the entire internet frequently,they needed to process all the data available on the entire World Wide Web in every couple of days, and it was practically impossible to build an index over the entire internet in a reasonable amount of time by using any commercial tool available. They had documents that were web pages and also their own logs that they had generated, they needed a system which can readout the whole data in time and the problem was they couldn't go buy a document maintenance system which can do their job because there were none available. So they designed and developed their new infrastructure at home which was MapReduce.
 
 

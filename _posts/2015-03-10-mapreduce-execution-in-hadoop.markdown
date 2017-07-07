@@ -3,11 +3,12 @@ layout: single
 title:  "MapReduce Execution in Hadoop"
 date:   2015-03-10 16:10:44 +0530
 categories: Hadoop
-author: Natendra Dubey
+tags:
+    - hadoop
+    - mapreduce
 header:
-  teaser: /assets/images/welcome-quote.jpg
+    teaser: /assets/images/banner.jpg
 ---
-
 In this article we have tried to summaries,  how a MapReduce program executes in Hadoop environment.
 
 **MapReduce 1 Execution Sequence:**

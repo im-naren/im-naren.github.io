@@ -3,11 +3,12 @@ layout: single
 title:  "Introduction To Mapreduce"
 date:   2015-05-14 16:10:44 +0530
 categories: Hadoop
-author: Natendra Dubey
+tags: 
+    - hadoop
+    - mapreduce
 header:
-  teaser: /assets/images/welcome-quote.jpg
+    teaser: /assets/images/banner.jpg
 ---
-
 **MapReduce** is a framework for processing large amount of data residing on hundreds of computers, its an extraordinarily powerful paradigm. MapReduce was first introduced by Google in 2004 MapReduce: Simplified Data Processing on Large Clusters.
 
 In this article we’ll see how MapReduce processes the data, I am considering the Word Count program as a example, yeah!! this is the worlds most famous MapReduce program!!
