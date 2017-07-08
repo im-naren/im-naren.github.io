@@ -45,7 +45,7 @@ X1
 
 
 
-*Note:- * when the Series contains elements of multiple different datatypes the dtype of the series will be the higher datatype
+*Note:-* when the Series contains elements of multiple different datatypes the dtype of the series will be the higher datatype
 
 `int32 > int64 > flot64 >.....>object`  
 
