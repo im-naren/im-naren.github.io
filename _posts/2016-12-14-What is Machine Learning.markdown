@@ -6,7 +6,7 @@ categories: machine-learning
 tags:
     - machine-learning
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 **Machine learning** is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning is a part of computer science which focuses on the development of computer programs that can teach themselves to grow and change based on the data it is exposed to.
 

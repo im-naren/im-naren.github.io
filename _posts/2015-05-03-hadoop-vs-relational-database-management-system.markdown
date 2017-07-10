@@ -7,7 +7,7 @@ tags:
     - hadoop
     - big-data
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-hadoop.jpg
 ---
 Hadoop or RDBMS? There are a lot of different opinions out there among these two technologies. Few people think Hadoop is a replacement of RDBMS, few say Hadoop is the future, and few thinks Hadoop have just got hype. So I have tried to find out what is the reality what Hadoop is really meant for.
 

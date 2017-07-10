@@ -8,7 +8,7 @@ tags:
     - kafka
     - message-queue
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-kafka.png
 ---
 **What is Message Passing?**
 Message passing is a technique to enable inter-process communication (IPC), or for inter-thread communication within the same process communication between two distributed or non-distributed parallel processes in synchronous or asynchronous mode, The communications are completed by the sending of messages (functions, signals and data packets) to recipients.

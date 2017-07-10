@@ -8,7 +8,7 @@ tags:
     - distribute-computing
     - kafka
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-zookeeper.jpg
 ---
 **Zookeper** is an open-source, centralised co-ordination service which is used to co-ordinate the services and manage the configurations of applications accross a large number of hosts over a distributed environment.
 Co-ordinating between the services in a distributed application is a complex process. ZooKeeper was designed to be a robust service that enables application developers to focus mainly on their  application logic rather than coordination. It exposes a simple API, similar to filesystem API, that allows developers to implement common co‐ordination tasks, such as electing a master server,managing group membership, and managing metadata.

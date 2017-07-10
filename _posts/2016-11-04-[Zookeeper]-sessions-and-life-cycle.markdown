@@ -8,7 +8,7 @@ tags:
   - distribute-computing
   - kafka
 header:
-  teaser: /assets/images/banner.jpg
+  teaser: /assets/site-images/thumb-zookeeper.jpg
 ---
 **Session and request order handeling:**
 

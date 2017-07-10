@@ -7,7 +7,7 @@ tags:
     - hadoop
     - mapreduce
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 In this article we have tried to summaries,  how a MapReduce program executes in Hadoop environment.
 

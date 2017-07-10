@@ -10,7 +10,7 @@ tags:
     - linux
     - machine-learning
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 Back in 1969, UNIX has evolved through a number of different versions and environment. One of the Original UNIX editors has licensed the most modern UNIX variants. It’s closed Source software. There are various flavors of UNIX are available in market like Sun’s Solaris, Hewlett-Packard’s HP-UX, and IBM’s AIX all of these have their own Unique Foundation, all these flavors are optimized and incorporated with different tools which are most compatible with their hardware.
 

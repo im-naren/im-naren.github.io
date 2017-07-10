@@ -3,12 +3,13 @@ layout: single
 title:  "Refreshing Probability"
 date:   2017-04-10 16:10:44 +0530
 categories: machine-learning
+og_image: /assets/site-images/thumb-sphare-vector.jpg
 tags:
     - prerequisite
     - probability
     - machine-learning
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 **Probability:**
 is defined as the measure of the likelihood that an event will occur. Measured by the ratio of the favorable event to the whole number of events possible. Probability is quantified as a number between 0 and 1 (where 0 indicates impossibility and 1 indicates certainty). The higher the probability of an event, the more certain that the event will occur.

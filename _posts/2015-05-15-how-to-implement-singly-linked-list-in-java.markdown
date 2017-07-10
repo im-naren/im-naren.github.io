@@ -8,7 +8,7 @@ tags:
     - coding
     - data-structure
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 A **Linked List** is a dynamic data structure. The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with an unknown number of objects will need to use a linked list.
 

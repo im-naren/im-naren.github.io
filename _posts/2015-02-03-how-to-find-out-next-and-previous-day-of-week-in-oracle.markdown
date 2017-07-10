@@ -10,7 +10,7 @@ tags:
     - linux
     - machine-learning
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 I have seen people writing number of lines of code to find out the date on a specific day in current or previous week, most often we need Friday the last working day of the week. We have a pretty simple way to find out in Oracle Queries.
 

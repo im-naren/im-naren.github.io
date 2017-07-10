@@ -8,7 +8,7 @@ tags:
     - coding
     - data-structure
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 HashMap doesn’t preserve any order by default. If order is required we need to sort it explicitly according to the requirement.
 

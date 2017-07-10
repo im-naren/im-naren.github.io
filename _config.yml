@@ -14,7 +14,7 @@ description              : "An amazing website."
 url                      : "https://develbyte.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "DEVELByte/develbyte.github.io"
-teaser                   : /assets/site-images/banner.jpg
+teaser                   : /assets/site-images/thumb-sphare-vector.jpg
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -60,13 +60,15 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : /assets/site-images/banner.jpg
+og_image                 : /assets/site-images/thumb-sphare-vector.jpg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Narendra Dubey"
   links: # An array of links to social media profiles
+    - "https://twitter.com/NareN_Dubey"
+    - "https://www.linkedin.com/in/narendrakumar05/"
 
 # Analytics
 analytics:

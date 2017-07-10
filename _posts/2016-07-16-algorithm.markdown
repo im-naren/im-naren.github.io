@@ -5,9 +5,10 @@ date:   2016-07-16 16:10:44 +0530
 categories: algorithm
 tags: 
     - algorithm
+    - machine-learning
 author: Natendra Dubey
 header:
-  teaser: /assets/images/welcome-quote.jpg
+  teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 **What is an Algorithm?**
 

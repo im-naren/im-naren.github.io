@@ -7,7 +7,7 @@ tags:
     - hadoop
     - mapreduce
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-hadoop.jpg
 ---
 **MapReduce** is a framework for processing large amount of data residing on hundreds of computers, its an extraordinarily powerful paradigm. MapReduce was first introduced by Google in 2004 MapReduce: Simplified Data Processing on Large Clusters.
 

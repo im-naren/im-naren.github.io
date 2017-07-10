@@ -9,6 +9,8 @@ tags:
     - data-science
     - coding
     - data-structure
+header:
+    teaser: /assets/site-images/thumb-python.jpg
 ---
 
 **Pandas** is one of the widely used Python libraries for working with data. it is built on libraries like Matplotlib and NumPy. Pandas is great for data manipulation, data analysis, and data visualization.

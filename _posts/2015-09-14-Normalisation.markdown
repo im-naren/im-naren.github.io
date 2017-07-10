@@ -7,7 +7,7 @@ tags:
     - sql
     - database
 header:
-    teaser: /assets/images/banner.jpg
+    teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
 Normalisation is the process of eliminating the redundancy, minimising the use of null values and prevention of the loss of information by establishing relations and ensuring data integrity.
 
