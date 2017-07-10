@@ -3,7 +3,6 @@ layout: single
 title:  "Refreshing Probability"
 date:   2017-04-10 16:10:44 +0530
 categories: machine-learning
-og_image: /assets/site-images/thumb-sphare-vector.jpg
 tags:
     - prerequisite
     - probability
