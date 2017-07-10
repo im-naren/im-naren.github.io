@@ -4,9 +4,10 @@ title:  "Refreshing Probability"
 date:   2017-04-10 16:10:44 +0530
 categories: machine-learning
 tags:
-    - prerequisite
-    - probability
     - machine-learning
+    - data-science
+    - data-structure
+    - probability
 header:
     teaser: /assets/site-images/thumb-sphare-vector.jpg
 ---
