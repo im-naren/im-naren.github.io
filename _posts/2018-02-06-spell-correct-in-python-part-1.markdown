@@ -14,7 +14,7 @@ header:
 ---
 One of the most common problem to face while solving a text processing use case is wrongly spelt words, swapping every wrongly spelt word with a mapping dictionary is a tedious solution. the major problem with this solution is the dictionary keeps growing and hard to manage.
 
-There is a beautiful solution demonstrated by Peter Norvig[http://norvig.com/] which solves the problem of wrong spelling for 70% of the cases. 
+There is a beautiful solution demonstrated by [Peter Norvig](http://norvig.com/) which solves the problem of wrong spelling for 70% of the cases. 
 
 
 **Solution**
