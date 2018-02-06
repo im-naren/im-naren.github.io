@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Spell-correct in Python"
+title:  "Spell-correct in Python - Part 1"
 date:   2018-02-06 14:02:44 +0530
 categories: machine-learning
 tags:
