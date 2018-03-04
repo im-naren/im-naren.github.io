@@ -16,7 +16,7 @@ Machine learning algorithms are used heavily in mining large data sets like clic
 
 Machine learning algorithms plays  a big role solving complex problems which cannot be programmed like flying an Aircraft, DNA sequencing, Genome Analysis.
 
-The machine learning algorithms can be classified into two main categories
+The machine learning algorithms can be classified into two main categories:
 
 * Supervised Learning Algorithms
 * Unsupervised Learning Algorithms
@@ -25,7 +25,7 @@ The machine learning algorithms can be classified into two main categories
 
 The majority of practical machine learning uses supervised learning. In a supervised machine learning algorithm we start with a data set which contains both the inputs and the corresponding correct answer and we train the algorithm to learn a function good enough to predict the correct or approximate correct output for a new given input value which it have not seen before.
 
-The supervised learning algorithms can be further grouped under Regression and Classification problems.
+The supervised learning algorithms can be further grouped under **Regression** and **Classification** problems.
 
 **Regression** All the algorithms used to predict a continuous number as output for a given input, then its a Regression algorithm. 
 
@@ -41,10 +41,7 @@ e.g. if we are trying to predict if the given email is spam or not, its a classi
 In this type of learning algorithms we use to only have input data, the corresponding output is unknown and the algorithms are left to their own to discover and present the interesting structure in the data, The goal for unsupervised learning is to model the underlying structure  
 or distribution in the data in order to learn more about the data.
 
-Unsupervised learning problems can be further grouped into clustering and association problems.
-
-* Clustering Algorithms
-* Association Algorithms
+Unsupervised learning problems can be further grouped into **Clustering** and **Association** problems.
 
 **Clustering**: A clustering problem is where you want to discover the inherent groupings in the data, such as grouping customers by purchasing behaviour.
 
