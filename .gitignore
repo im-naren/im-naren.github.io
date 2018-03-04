@@ -12,3 +12,17 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
+.idea/
+target
+dependency-reduced-pom.xml
+bin
+logs
+*.log
+.vagrant
+*.iml
+*.jar
+.idea/
+*.pyc
+.metadata
+.classpath
+.project
