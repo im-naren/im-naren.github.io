@@ -43,9 +43,13 @@ or distribution in the data in order to learn more about the data.
 
 Unsupervised learning problems can be further grouped into clustering and association problems.
 
-* **Clustering**: A clustering problem is where you want  
+* Clustering Algorithms
+* Association Algorithms
+
+**Clustering**: A clustering problem is where you want  
 to discover the inherent groupings in the data, such as grouping  
 customers by purchasing behaviour.
-* **Association**:  An association rule learning problem  
+
+**Association**:  An association rule learning problem  
 is where you want to discover rules that describe large portions of your  
 data, such as people that buy X also tend to buy Y
