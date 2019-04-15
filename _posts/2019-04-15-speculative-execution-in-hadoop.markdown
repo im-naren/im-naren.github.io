@@ -2,7 +2,7 @@
 layout: single
 title:  "Speculative Execution in Hadoop"
 date:   2019-04-15 11:02:44 +0530
-categories: machine-learning
+categories: big-data
 tags:
     - big-data
     - hadoop
