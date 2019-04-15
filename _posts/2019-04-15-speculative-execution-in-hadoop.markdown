@@ -18,9 +18,11 @@ In Hadoop, MapReduce breaks jobs into tasks and these tasks run parallel on mult
 Hadoop as a system doesn't try to fix slow running tasks, instead, it tries to detect them and runs backup tasks for them. These backup tasks are called Speculative tasks in Hadoop.
 
 **How speculative execution works in Hadoop?**
+
 Firstly all the tasks for the job are launched in Hadoop MapReduce. The speculative tasks are launched for those tasks that have been running for some time (at least one minute) and have not made any much progress, on average, as compared with other tasks from the job. The speculative task is killed if the original task completes before the speculative task, on the other hand, the original task is killed if the speculative task finishes before it.
 
 **Is speculative execution beneficial?**
+
 Hadoop MapReduce Speculative execution is beneficial in some cases because in a Hadoop cluster with 100s of nodes, problems like hardware failure or network congestion are common and running parallel or duplicate task would be better since we won’t be waiting for the task in the problem to complete.
 
 But if two duplicate tasks are launched at about same time, it will be a wastage of cluster resources
