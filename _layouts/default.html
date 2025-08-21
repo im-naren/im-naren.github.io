@@ -1,34 +1,29 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <p>{{ site.description }}</p>
+        </div>
+    </header>
 
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+    <main class="main-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.name }}. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>

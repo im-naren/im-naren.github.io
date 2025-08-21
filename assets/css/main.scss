@@ -1,7 +1,8 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main stylesheet for the site
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes";
+// Import our custom styles
+@import url('/assets/css/style.css');

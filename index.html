@@ -1,4 +1,30 @@
 ---
-layout: home
-author_profile: true
+layout: default
 ---
+
+<div class="home">
+    <h2>Recent Posts</h2>
+    
+    {% if site.posts.size > 0 %}
+        <ul class="posts-list">
+            {% for post in site.posts limit:10 %}
+                <li class="post-item">
+                    <h2>
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                    </p>
+                    {% if post.excerpt %}
+                        <div class="post-excerpt">
+                            {{ post.excerpt | strip_html | truncatewords: 50 }}
+                        </div>
+                        <a href="{{ post.url | relative_url }}" class="read-more">Read more &rarr;</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No posts found.</p>
+    {% endif %}
+</div>
