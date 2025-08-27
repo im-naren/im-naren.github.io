@@ -5,6 +5,9 @@ description: "Technology Enthusiast sharing insights on Data Science, AI, Python
 url: "https://develbyte.github.io"
 baseurl: ""
 
+# Theme: Custom minimal design
+# remote_theme: none
+
 # Author information
 author:
   name: "Narendra Dubey"
@@ -54,3 +57,8 @@ defaults:
       layout: post
       comments: false
       share: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
