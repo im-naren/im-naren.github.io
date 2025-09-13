@@ -3,7 +3,7 @@ html,
 body { padding: 0; margin: 0; }
 
 body {
-    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
     color: #111;
     background: #fff;
     line-height: 1.7;
@@ -32,10 +32,11 @@ p { margin: 12px 0; }
 a { color: inherit; text-decoration: underline; text-decoration-skip-ink: none; text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
 a:hover { text-decoration-thickness: 2px; }
 
-ul.year-list { margin: 12px 0 36px 0; padding: 0; list-style: none; font-size: 1.08rem; }
+ul.year-list { margin: 12px 0 36px 0; padding: 0; list-style: none; font-size: 1.18rem; }
 ul.year-list li { padding: 10px 0; display: grid; grid-template-columns: 84px 1fr; column-gap: 24px; align-items: baseline; }
 .post-line { display: inline; }
-.post-date-inline { color: #666; margin-right: 8px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.post-date-inline { color: #666; margin-right: 8px; white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 0.95em; }
+ul.year-list a { font-weight: 650; }
 
 .post-header { margin-bottom: 12px; }
 .post-title-page { margin: 0 0 6px 0; }
