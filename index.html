@@ -2,54 +2,17 @@
 layout: default
 ---
 
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="hero-container">
-        <div class="hero-content">
-            <img src="{{ '/assets/images/profile-pic.JPG' | relative_url }}" alt="{{ site.author.name }}" class="hero-image">
-            
-            <h1 class="hero-heading">👋 Hey there!</h1>
-            
-            <div class="hero-body">
-                <p>Welcome to DevelByte — my little corner of the internet where code meets caffeine.</p>
-                
-                <p>I'm <strong>Narendra Dubey</strong>, a full-stack tech tinkerer who's been breaking (and fixing) things in the software world for over a decade. From debugging late-night production fires to building <span class="highlight">data pipelines</span> that don't collapse under load, I've learned a thing or two about what makes good code tick.</p>
-                
-                <p>Around here, you'll find a mix of <span class="highlight">coding tips</span>, productivity hacks, <span class="highlight">system design</span> rants, job-hunt strategies, and even the occasional salary-negotiation battle log. Think of it as a nerd's survival guide to thriving in tech without losing your sanity.</p>
-                
-                <p>I'm not here to preach from the mountaintop — I still Google half my solutions daily — but I'll share war stories, lessons learned, and random experiments that (sometimes) actually work.</p>
-                
-                <p>So whether you're a fresh grad writing your first "Hello, World!" or a grizzled engineer scaling distributed systems, pull up a chair. Let's ship code, break things, learn fast, and maybe even laugh at a few bugs along the way. 🚀</p>
-            </div>
-            
-            <div style="clear: both;"></div>
-        </div>
-    </div>
-</section>
+{% assign posts_by_year = site.posts | group_by_exp: 'post', "post.date | date: '%Y'" %}
+{% assign posts_by_year = posts_by_year | sort: 'name' | reverse %}
 
-<!-- Recent Posts Section -->
-<section class="featured-section" id="recent-posts">
-    <div class="featured-container">
-        <h2 class="featured-heading">Recent Posts</h2>
-        <div class="featured-grid">
-            {% for post in site.posts %}
-                <article class="featured-card">
-                    <a href="{{ post.url | relative_url }}" class="featured-link">
-                        <time class="featured-date">{{ post.date | date: "%b %d, %Y" }}</time>
-                        <div class="featured-content">
-                            <h3 class="featured-title">{{ post.title }}</h3>
-                            {% if post.categories.size > 0 %}
-                                <div class="featured-tags">
-                                    {% for category in post.categories %}
-                                        <span class="featured-tag tag-{{ category | downcase }}">{{ category | capitalize }}</span>
-                                    {% endfor %}
-                                </div>
-                            {% endif %}
-                        </div>
-                    </a>
-                </article>
-            {% endfor %}
-        </div>
-        <a href="/blog" class="view-all-link">View All Posts →</a>
-    </div>
-</section>
+{% for year in posts_by_year %}
+  <h2>{{ year.name }}</h2>
+  <ul class="year-list">
+    {% for post in year.items %}
+      <li>
+        <span class="post-date-inline">{{ post.date | date: '%b %d' }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}
