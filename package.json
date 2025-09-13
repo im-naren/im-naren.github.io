@@ -4,7 +4,7 @@
   "description": "Personal blog and technology insights by Narendra Dubey",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DEVELByte/develbyte.github.io.git"
+    "url": "git://github.com/im-naren/im-narengithub.io.git"
   },
   "keywords": [
     "blog",
@@ -16,7 +16,7 @@
   "author": "Narendra Dubey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DEVELByte/develbyte.github.io/issues"
+    "url": "https://github.com/im-naren/im-naren.github.io/issues"
   },
-  "homepage": "https://develbyte.github.io/"
+  "homepage": "https://im-naren.github.io/"
 }
