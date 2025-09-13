@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="stylesheet" href="{{ '/assets/css/blag.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/devlbyte.css' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/feed.xml' | relative_url }}">
 </head>
@@ -14,8 +15,8 @@
         <div class="container">
             <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             <div class="site-subnav">
+                <a href="{{ '/' | relative_url }}">Index</a>
                 <a href="{{ '/about/' | relative_url }}">About</a>
-                <a href="{{ '/now/' | relative_url }}">Now</a>
                 <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
             </div>
         </div>
